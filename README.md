@@ -1,7 +1,7 @@
 ![image](https://github.com/Dayer5/MinecraftAIWithNVIDIA/blob/main/Minecraft%20Biome%20Identifier%20with%20NVIDIA.png?raw=true)
 # Minecraft Biome Identifier With NVIDIA
 A machine learning model that identifies the minecraft biome based on an image. <br/><br/>
-Biomes include:
+Biome Categories include:
 - badlands
 - basalt_deltas
 - crimson_forest
@@ -33,3 +33,6 @@ The Minecraft Biome Identifier uses the resnet18 image recognition model retrain
 7. Move the photo of your minecraft biome into the `classification` folder
 8. Run the model using `imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt IMAGE_RELATIVE_PATH output/IMAGE_OUTPUT_NAME` Replace IMAGE_RELATIVE_PATH with the path of your image and IMAGE_OUTPUT_NAME with the name of the output image.
 9. Enjoy running the Minecraft Biome Identifier model!
+
+## Credits
+This was made possible with the help and support from Cipher and the rest of the iDTech Community. Thank you! :D
