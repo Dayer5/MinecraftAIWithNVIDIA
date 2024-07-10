@@ -24,7 +24,12 @@ The Minecraft Biome Identifier uses the resnet18 image recognition model retrain
 
 ## Running this project
 
-1. Add steps for running this project.
-2. Make sure to include any required libraries that need to be installed for your project to run.
-
-[View a video explanation here](video link)
+1. Setup and Install Jetson Nano and VScode
+2. Connect Jetson Nano onto your computer hotspot. Write down your Jetson Nano IP address for later use
+3. Connect your VScode to your Jetson Nano using `ssh nvidia@IPAddress`
+4. Open the NVIDIA home folder
+5. Open the terminal and use `cd jetson-inference/python/training/classification` to enter the needed directory
+6. Use `NET=models/minecraftV2` and `DATASET=data/minecraftDataV2` to set NET and DATASET for later reference
+7. Move the photo of your minecraft biome into the `classification` folder
+8. Run the model using `imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt IMAGE_RELATIVE_PATH output/IMAGE_OUTPUT_NAME` Replace IMAGE_RELATIVE_PATH with the path of your image and IMAGE_OUTPUT_NAME with the name of the output image.
+9. Enjoy running the Minecraft Biome Identifier model!
