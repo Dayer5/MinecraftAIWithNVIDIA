@@ -35,4 +35,4 @@ The Minecraft Biome Identifier uses the resnet18 image recognition model retrain
 9. Enjoy running the Minecraft Biome Identifier model!
 
 ## Credits
-This was made possible with the help and support from Cipher and the rest of the iDTech Community. Thank you! :D
+This was made possible with the help and support from **Cipher (Real Name Unknown)** and the rest of the **iDTech Community**. Thank you! :D
