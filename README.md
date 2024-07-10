@@ -15,7 +15,8 @@ Biome Categories include:
 - savanna
 - soul_sand_valley
 - taiga
-- warped_forest
+- warped_forest <br/>
+### Example
 
 ## The Algorithm
 The Minecraft Biome Identifier uses the resnet18 image recognition model retrained for the specific purpose of identifying biomes. The data images used to train, test and validate the model comes from two kaggle databases:
