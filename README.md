@@ -17,7 +17,8 @@ Biome Categories include:
 - taiga
 - warped_forest <br/>
 ### Example
-
+![image](https://github.com/Dayer5/MinecraftAIWithNVIDIA/blob/main/2021-06-30_15.28.51.png?raw=true)
+![image](https://github.com/Dayer5/MinecraftAIWithNVIDIA/blob/main/output6.png?raw=true)
 ## The Algorithm
 The Minecraft Biome Identifier uses the resnet18 image recognition model retrained for the specific purpose of identifying biomes. The data images used to train, test and validate the model comes from two kaggle databases:
 >[Minecraft Dimensions Screenshots by PR1M3R](https://www.kaggle.com/datasets/pr1m3r/minecraft-dimensions-screenshots?resource=download) <br/>
