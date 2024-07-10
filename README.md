@@ -1,14 +1,26 @@
-
-
-# MinecraftAIWithNVIDIA
-
- Add short description of project here > 
-
-![add image descrition here](direct image link here)
+![image](https://github.com/Dayer5/MinecraftAIWithNVIDIA/blob/main/Minecraft%20Biome%20Identifier%20with%20NVIDIA.png?raw=true)
+# Minecraft Biome Identifier With NVIDIA
+A machine learning model that identifies the minecraft biome based on an image. <br/><br/>
+Biomes include:
+- badlands
+- basalt_deltas
+- crimson_forest
+- dark_forest
+- desert
+- jungle
+- nether_wastes
+- oak_forest
+- ocean
+- plains
+- savanna
+- soul_sand_valley
+- taiga
+- warped_forest
 
 ## The Algorithm
-
-Add an explanation of the algorithm and how it works. Make sure to include details about how the code works, what it depends on, and any other relevant info. Add images or other descriptions for your project here. 
+The Minecraft Biome Identifier uses the resnet18 image recognition model retrained for the specific purpose of identifying biomes. The data images used to train, test and validate the model comes from two kaggle databases:
+>[Minecraft Dimensions Screenshots by PR1M3R](https://www.kaggle.com/datasets/pr1m3r/minecraft-dimensions-screenshots?resource=download) <br/>
+>[Minecraft Biomes by WILLOW C](https://www.kaggle.com/datasets/willowc/minecraft-biomes?resource=download)
 
 ## Running this project
 
