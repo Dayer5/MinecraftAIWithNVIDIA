@@ -16,12 +16,12 @@ Biome Categories include:
 - soul_sand_valley
 - taiga
 - warped_forest <br/>
-### Example
+### Examples
 ![image](https://github.com/Dayer5/MinecraftAIWithNVIDIA/blob/main/input1.png?raw=true)
 ![image](https://github.com/Dayer5/MinecraftAIWithNVIDIA/blob/main/output1.png?raw=true)
 ![image](https://github.com/Dayer5/MinecraftAIWithNVIDIA/blob/main/input2.png?raw=true)
 ![image](https://github.com/Dayer5/MinecraftAIWithNVIDIA/blob/main/output2.png?raw=true)
-## The Algorithm
+## Behind The Scenes
 The Minecraft Biome Identifier uses the resnet18 image recognition model retrained for the specific purpose of identifying biomes. The data images used to train, test and validate the model comes from two kaggle databases:
 >[Minecraft Dimensions Screenshots by PR1M3R](https://www.kaggle.com/datasets/pr1m3r/minecraft-dimensions-screenshots?resource=download) <br/>
 >[Minecraft Biomes by WILLOW C](https://www.kaggle.com/datasets/willowc/minecraft-biomes?resource=download)
