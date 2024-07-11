@@ -1,4 +1,4 @@
-![image](https://github.com/Dayer5/MinecraftAIWithNVIDIA/blob/main/Minecraft%20Biome%20Identifier%20with%20NVIDIA.png?raw=true)
+![image](https://github.com/Dayer5/MinecraftBiomeIdentifierWithNVIDIA/blob/main/Thumbnail.png?raw=true)
 # Minecraft Biome Identifier With NVIDIA
 A machine learning model that identifies the minecraft biome based on an image. <br/><br/>
 Biome Categories include:
