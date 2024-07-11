@@ -35,7 +35,7 @@ The Minecraft Biome Identifier uses the resnet18 image recognition model retrain
 5. Open the terminal and use `cd jetson-inference/python/training/classification` to enter the needed directory
 6. Use `NET=models/minecraftV2` and `DATASET=data/minecraftDataV2` to set NET and DATASET for later reference
 7. Move the photo of your minecraft biome into the `input` folder
-8. Run the model using `imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt input/IMAGE_NAME output/IMAGE_OUTPUT_NAME` Replace IMAGE_NAME with the name of your image and IMAGE_OUTPUT_NAME with the name of what you want the output image to be.
+8. Run the model using `imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --abells=$DATASET/labels.txt >input/IMAGE_NAME >output/IMAGE_OUTPUT_NAME` Replace IMAGE_NAME with the name of your image and IMAGE_OUTPUT_NAME with the name of what you want the output image to be.
 9. Enjoy running the Minecraft Biome Identifier model!
 
 ## Credits
