@@ -18,7 +18,7 @@ Biome Categories include:
 - warped_forest <br/>
 ### Examples
 ![image](https://github.com/Dayer5/MinecraftAIWithNVIDIA/blob/main/input1.png?raw=true)
-![image](https://github.com/Dayer5/MinecraftAIWithNVIDIA/blob/main/output1.png?raw=true)
+![image](https://github.com/Dayer5/MinecraftAIWithNVIDIA/blob/main/output1.png?raw=true)<br/>
 ![image](https://github.com/Dayer5/MinecraftAIWithNVIDIA/blob/main/input2.png?raw=true)
 ![image](https://github.com/Dayer5/MinecraftAIWithNVIDIA/blob/main/output2.png?raw=true)
 ## Behind The Scenes
